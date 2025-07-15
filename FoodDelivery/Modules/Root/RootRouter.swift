@@ -11,11 +11,11 @@ class RootRouter: RootRouterInterface {
     
     func presentRootScreen(in window: UIWindow) {
         window.makeKeyAndVisible()
-        window.rootViewController = OnBoardingRouter.createModule()
+        window.rootViewController = SignUpRouter.createModule()
     }
     
     func resetApp() {
-        let vc = OnBoardingRouter.createModule()
+        let vc = SignUpRouter.createModule()
         rootVC(vc)
     }
         
