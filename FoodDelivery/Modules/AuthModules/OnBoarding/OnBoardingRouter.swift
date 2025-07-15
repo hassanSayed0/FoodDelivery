@@ -14,7 +14,7 @@ class OnBoardingRouter: PresenterToRouterOnBoardingProtocol {
     // MARK: Static methods
     static func createModule() -> UIViewController {
         
-        let viewController:OnBoardingViewController = OnBoardingViewController.loadFromNib()
+        let viewController:OnBoardingViewController = OnBoardingViewController.loadFromStoryboard()
         
         let presenter: ViewToPresenterOnBoardingProtocol & InteractorToPresenterOnBoardingProtocol = OnBoardingPresenter()
         
