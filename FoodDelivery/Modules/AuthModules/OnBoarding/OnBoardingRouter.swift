@@ -15,16 +15,20 @@ class OnBoardingRouter: PresenterToRouterOnBoardingProtocol {
     static func createModule() -> UIViewController {
         
         let viewController:OnBoardingViewController = OnBoardingViewController.loadFromStoryboard()
-        
-        let presenter: ViewToPresenterOnBoardingProtocol & InteractorToPresenterOnBoardingProtocol = OnBoardingPresenter()
+        let router = OnBoardingRouter()
+        let interactor = OnBoardingInteractor()
+        let presenter = OnBoardingPresenter(view: viewController, interactor: interactor, router: router)
         
         viewController.presenter = presenter
-        viewController.presenter?.router = OnBoardingRouter()
+        viewController.presenter?.router = router
         viewController.presenter?.view = viewController
-        viewController.presenter?.interactor = OnBoardingInteractor()
+        viewController.presenter?.interactor = interactor
         viewController.presenter?.interactor?.presenter = presenter
         
         return viewController
     }
-    
+    func presentSignIn() {
+        let view = SignInRouter.createModule()
+        RootRouter().rootVC(view)
+    }
 }
