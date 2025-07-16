@@ -29,10 +29,12 @@ class SignUpRouter: PresenterToRouterSignUpProtocol {
     }
     
     func presentSignIn() {
-            
+        let view = SignInRouter.createModule()
+        RootRouter().popToRoot(animated: false)
+        RootRouter().show(viewController: view)
     }
     
-    func presentOtp(phone: String, countryCode: String) {
+    func presentOtp(phone: String) {
             
     }
     

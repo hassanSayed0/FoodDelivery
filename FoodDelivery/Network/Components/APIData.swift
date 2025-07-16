@@ -16,4 +16,14 @@ struct APIData<T: Decodable>: Decodable {
     var message: String?
     var errors: ErrorsEnum?
     var data: T?
+    
+}
+extension APIData {
+    
+    enum CodingKeys: String, CodingKey {
+        case status = "success"
+        case message
+        case errors
+        case data
+    }
 }

@@ -27,11 +27,11 @@ final class Api {
     var BASE_URL: String {
         switch config {
         case .development:
-            return "https://fawturny.tarseya.tech/api/v1/"
+            return "https://flod.runasp.net/api/"
         case .stage:
-            return "https://fawturny.tarseya.tech/api/v1/"
+            return "https://flod.runasp.net/api/"
         case .release:
-            return "https://fawturny.tarseya.tech/api/v1/"
+            return "https://flod.runasp.net/api/"
         }
     }
     
@@ -45,7 +45,20 @@ final class Api {
     
     // MARK: - AUTH
     
-    let SERVICE_USERS_SIGN_IN = "auth/login-phone"
-    let SERVICE_USERS_SIGN_UP = "auth/register"
-    let SERVICE_USER_VERIFY = "auth/verify"
+    let SERVICE_USERS_SIGN_IN = "Auth/Login"
+    let SERVICE_USERS_SIGN_UP = "Auth/SignUp"
+    let SERVICE_USER_VERIFY = "Auth/VerifyAccount"
+    
+    // MARK: - USER
+    
+    let SERVICE_USER_PROFILE = "profile"
+    let SERVICE_USER_LOG_OUT = "auth/logout"
+    let SERVICE_USER_FORGET_PASSWORD = "auth/forgot-password"
+    let SERVICE_USER_VERIFY_FORGET = "auth/check-verify-code"
+    let SERVICE_USER_RESET_PASSWORD = "auth/reset-password"
+    let SERVICE_USER_UPDATE = "profile/update"
+    let SERVICE_USER_CHANGE_PASSWORD = "profile/password/change"
+    let SERVICE_USER_RESEND_CODE = "auth/resend-code"
+    let SERVICE_USER_REFRESH_TOKEN = "auth/refresh"
+    let SERVICE_USER_DELETE_ACCOUNT = "profile/destroy"
 }

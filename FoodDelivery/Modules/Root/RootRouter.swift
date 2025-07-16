@@ -10,12 +10,11 @@ import UIKit
 class RootRouter: RootRouterInterface {
     
     func presentRootScreen(in window: UIWindow) {
-        window.makeKeyAndVisible()
-        window.rootViewController = SignUpRouter.createModule()
+        window.rootViewController = SignInRouter.createModule()
     }
     
     func resetApp() {
-        let vc = SignUpRouter.createModule()
+        let vc = SignInRouter.createModule()
         rootVC(vc)
     }
         

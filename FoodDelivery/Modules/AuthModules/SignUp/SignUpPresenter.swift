@@ -18,19 +18,19 @@ class SignUpPresenter: ViewToPresenterSignUpProtocol {
     func didClickLogin() {
         router?.presentSignIn()
     }
-    func didClickSignUp(_ form: User) {
+    func didClickSignUp(_ form: AuthForm) {
         interactor?.signUp(form)
     }
 }
 
 extension SignUpPresenter: InteractorToPresenterSignUpProtocol {
     func didFailSignUp(_ error: APIError) {
-            
+        print(error.message)
     }
     
     
-    func didSignUp() {
-            
+    func didSignUp(_ form: AuthForm) {
+        router?.presentOtp(phone: form.phone ?? "")
     }
     
 }

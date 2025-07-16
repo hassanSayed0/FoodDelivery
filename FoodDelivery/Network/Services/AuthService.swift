@@ -11,8 +11,8 @@ extension Api {
     
     enum Auth: ServiceProtocol {
         
-        case signIn(_ form: User)
-        case signUp(_ form: User)
+        case signIn(_ form: AuthForm)
+        case signUp(_ form: AuthForm)
         case verify(_ otp: String)
         
         var path: String {

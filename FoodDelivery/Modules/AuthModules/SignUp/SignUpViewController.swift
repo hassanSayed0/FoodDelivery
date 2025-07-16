@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SignUpViewController: UIViewController {
+class SignUpViewController: BaseController {
     
     @IBOutlet weak var stackViewMain: UIStackView!
     @IBOutlet weak var stackViewWhite: UIStackView!
@@ -26,7 +26,7 @@ class SignUpViewController: UIViewController {
     @IBOutlet weak var imgToggelConfirmPassword: UIImageView!
     @IBOutlet weak var btnSignUp: UIButton!
     // MARK: - Properties
-    var presenter: ViewToPresenterSignUpProtocol?
+    var presenter: ViewToPresenterSignUpProtocol!
     
     // MARK: - Lifecycle Methods
     override func viewDidLoad() {
@@ -81,18 +81,18 @@ class SignUpViewController: UIViewController {
     
     @IBAction func actionSignUp(_ sender: UIButton) {
         view.endEditing(true)
-        let form = User(
+        let form = AuthForm(
             name: txtFldName.text,
             email: txtFldEmail.text,
             password: txtFldPassword.text,
             confirmPassword: txtFldConfirmPassword.text,
             phone: txtFldPhoneNUmber.text
         )
-        presenter?.didClickSignUp(form)
+        presenter.didClickSignUp(form)
     }
     
     @IBAction func actionLogin(_ sender: UIButton) {
-        presenter?.didClickLogin()
+        presenter.didClickLogin()
     }
     
     @IBAction func actionsTxtFlds(_ sender: UITextField) {

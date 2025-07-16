@@ -54,24 +54,24 @@ final class URLSessionProvider: URLSessionProviderProtocol {
             #endif
         }
         
-//        if response?.statusCode == 401 && USER.isExist() {
-//            DispatchQueue.main.async {
-//                USER.token.delete()
+        if response?.statusCode == 401 && USER.isExist() {
+            DispatchQueue.main.async {
+                USER.token.delete()
 //                USER.local.logOut()
-//                RootRouter().resetApp()
-//            }
-//        }
+                RootRouter().resetApp()
+            }
+        }
         
         guard error == nil else {
             // MARK: UI Action
-//            apiError = APIError(message: online ? "opps_something_went_wrong".localized : "internet_lost".localized, type: online ? .server : .network)
+            apiError = APIError(message: online ? "opps_something_went_wrong" : "internet_lost", type: online ? .server : .network)
 //            Banner.showError(title: apiError?.message)
             return completion(.failure(apiError!))
         }
         
         guard let response = response else {
             // MARK: UI Action
-//            apiError = APIError(type: response?.statusCode == 500 ? .noData : .parsing)
+            apiError = APIError(type: response?.statusCode == 500 ? .noData : .parsing)
 //            Banner.showError(title: apiError?.message)
             return completion(.failure(apiError!))
         }

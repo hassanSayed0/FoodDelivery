@@ -23,7 +23,7 @@ protocol ViewToPresenterSignUpProtocol {
     var interactor: PresenterToInteractorSignUpProtocol? { get set }
     var router: PresenterToRouterSignUpProtocol? { get set }
     func didClickLogin()
-    func didClickSignUp(_ form: User)
+    func didClickSignUp(_ form: AuthForm)
 
 }
 
@@ -32,13 +32,13 @@ protocol ViewToPresenterSignUpProtocol {
 protocol PresenterToInteractorSignUpProtocol {
     
     var presenter: InteractorToPresenterSignUpProtocol? { get set }
-    func signUp(_ form :User)
+    func signUp(_ form :AuthForm)
 }
 
 
 // MARK: Interactor Output (Interactor -> Presenter)
 protocol InteractorToPresenterSignUpProtocol:AnyObject {
-    func didSignUp()
+    func didSignUp(_ form: AuthForm)
     func didFailSignUp(_ error: APIError)
 }
 
@@ -46,5 +46,5 @@ protocol InteractorToPresenterSignUpProtocol:AnyObject {
 // MARK: Router Input (Presenter -> Router)
 protocol PresenterToRouterSignUpProtocol {
     func presentSignIn()
-    func presentOtp(phone: String,countryCode: String)
+    func presentOtp(phone: String)
 }
