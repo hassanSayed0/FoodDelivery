@@ -19,7 +19,7 @@ class SignUpInteractor: PresenterToInteractorSignUpProtocol {
             switch response {
             case let .onSuccess(data):
                 print("data from signup \(data)")
-                
+                DispatchQueue.main.async {presenter.didSignUp(form)}
             case let .onFailure(error):
                 DispatchQueue.main.async {presenter.didFailSignUp(error)}
             case .onCompleted:

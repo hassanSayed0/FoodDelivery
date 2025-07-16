@@ -13,7 +13,7 @@ extension Api {
         
         case signIn(_ form: AuthForm)
         case signUp(_ form: AuthForm)
-        case verify(_ otp: String)
+        case verify(_ form: VerifyForm)
         
         var path: String {
             switch self {
@@ -66,8 +66,8 @@ extension Api {
                 return form
             case .signUp(let form):
                 return form
-            case .verify(let otp):
-                return ["verification_key" : otp]
+            case .verify(let form):
+                return form
             }
         }
     }

@@ -98,6 +98,36 @@
             endingLineNumber = "36"
             landmarkName = "signUp(_:_:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C8C6D3ED-A06A-4D24-B867-91CE624FAD98 - 47d8937081b021d4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FoodDelivery.AuthRepository.signUp(FoodDelivery.AuthForm, (FoodDelivery.Response&lt;Swift.Optional&lt;FoodDelivery.AnyCodable&gt;&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "FoodDelivery.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hassan/Data/projects/FoodDelivery/FoodDelivery/Repository/AuthRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36">
+               </Location>
+               <Location
+                  uuid = "C8C6D3ED-A06A-4D24-B867-91CE624FAD98 - a649fd65954f2f8e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (FoodDelivery.APIResponse&lt;Swift.Optional&lt;FoodDelivery.AnyCodable&gt;&gt;) -&gt; () in FoodDelivery.AuthRepository.signUp(FoodDelivery.AuthForm, (FoodDelivery.Response&lt;Swift.Optional&lt;FoodDelivery.AnyCodable&gt;&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "FoodDelivery.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hassan/Data/projects/FoodDelivery/FoodDelivery/Repository/AuthRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -199,24 +229,8 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "F46651C1-54F9-4506-AA2F-A2CE3C5F8A7B"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "FoodDelivery/Network/URLSession/URLSessionProvider.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "82"
-            endingLineNumber = "82"
-            landmarkName = "handleResponse(task:data:response:startTime:error:completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "E1943D02-F1B0-4C6D-8592-7AC1B0E47C0F"
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "FoodDelivery/Network/URLSession/URLSessionProvider.swift"
@@ -248,7 +262,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "1AC4249C-0E1F-42EE-912B-051986AA75CF"
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "FoodDelivery/Network/URLSession/URLSessionProvider.swift"
@@ -258,6 +272,36 @@
             endingLineNumber = "41"
             landmarkName = "request(type:service:completion:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1AC4249C-0E1F-42EE-912B-051986AA75CF - 571cc719eed0da58"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FoodDelivery.URLSessionProvider.request&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(type: Swift.Optional&lt;&#x3c4;_0_0.Type&gt;, service: FoodDelivery.ServiceProtocol, completion: (FoodDelivery.APIResponse&lt;&#x3c4;_0_0&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "FoodDelivery.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hassan/Data/projects/FoodDelivery/FoodDelivery/Network/URLSession/URLSessionProvider.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41">
+               </Location>
+               <Location
+                  uuid = "1AC4249C-0E1F-42EE-912B-051986AA75CF - 487cab70c5eb5647"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in FoodDelivery.URLSessionProvider.request&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(type: Swift.Optional&lt;&#x3c4;_0_0.Type&gt;, service: FoodDelivery.ServiceProtocol, completion: (FoodDelivery.APIResponse&lt;&#x3c4;_0_0&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "FoodDelivery.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hassan/Data/projects/FoodDelivery/FoodDelivery/Network/URLSession/URLSessionProvider.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -280,7 +324,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "3E6D2C8A-E05F-4F0B-9FE3-9B21E7F6FB61"
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "FoodDelivery/Network/Extensions/URLComponents+Extension.swift"
@@ -296,7 +340,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "38306955-8677-40C1-BBD0-63FEABB77FF1"
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "FoodDelivery/Network/URLSession/URLSessionProvider.swift"
@@ -408,7 +452,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "DF05B010-23E8-40F4-9B5C-0857F259CB09"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "FoodDelivery/Modules/AuthModules/SignIn/SignInRouter.swift"
@@ -503,22 +547,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "80BB6F4C-04F4-43DF-9B2E-ED3293972B60"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "FoodDelivery/Modules/Root/RootRouter.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
-            landmarkName = "show(viewController:animated:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "66BF0995-0EAC-4F7D-BEE7-4CFAF5D91D0E"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -546,50 +574,6 @@
             endingLineNumber = "12"
             landmarkName = "topViewController(base:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "F1B4B0E0-B0CD-41C2-96F7-43D606AED7D4 - 4f337e10d0de2cf9"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "default argument 0 of static __C.UIApplication.topViewController(base: Swift.Optional&lt;__C.UIViewController&gt;) -&gt; Swift.Optional&lt;__C.UIViewController&gt;"
-                  moduleName = "FoodDelivery.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/hassan/Data/projects/FoodDelivery/FoodDelivery/Extensions/UIKit/UIApplication/UIApplication.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "12"
-                  endingLineNumber = "12">
-               </Location>
-               <Location
-                  uuid = "F1B4B0E0-B0CD-41C2-96F7-43D606AED7D4 - ab6975a7d16291eb"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (__C.UIWindow) -&gt; Swift.Bool in default argument 0 of static __C.UIApplication.topViewController(base: Swift.Optional&lt;__C.UIViewController&gt;) -&gt; Swift.Optional&lt;__C.UIViewController&gt;"
-                  moduleName = "FoodDelivery.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/hassan/Data/projects/FoodDelivery/FoodDelivery/Extensions/UIKit/UIApplication/UIApplication.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "12"
-                  endingLineNumber = "12">
-               </Location>
-               <Location
-                  uuid = "F1B4B0E0-B0CD-41C2-96F7-43D606AED7D4 - e13c0f52edea68f9"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "static __C.UIApplication.topViewController(base: Swift.Optional&lt;__C.UIViewController&gt;) -&gt; Swift.Optional&lt;__C.UIViewController&gt;"
-                  moduleName = "FoodDelivery.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/hassan/Data/projects/FoodDelivery/FoodDelivery/Extensions/UIKit/UIApplication/UIApplication.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "13"
-                  endingLineNumber = "13">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -622,6 +606,132 @@
             endingLineNumber = "21"
             landmarkName = "topViewController(base:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2B72E954-8042-470A-98F0-F0D42F377538"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FoodDelivery/Repository/AuthRepository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "verify(_:_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E073021F-F1F4-401F-8801-9D9BF1B7FB57"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FoodDelivery/Network/Extensions/URLRequest+Extension.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "init(service:cachePolicy:timeoutInterval:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "993200AE-1B95-464F-AE1A-3DE57BF12ABF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FoodDelivery/Network/Extensions/URLRequest+Extension.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "init(service:cachePolicy:timeoutInterval:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F03F8981-C566-4472-A5F1-D16BF6730BB9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FoodDelivery/Network/Extensions/URLComponents+Extension.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "init(service:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "14CD5B8C-FB24-4DC4-B1EB-90529FEB54A5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FoodDelivery/Network/Extensions/URLRequest+Extension.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "init(service:cachePolicy:timeoutInterval:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1B4B6634-3E1A-4096-9FD1-F5500DD0B051"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FoodDelivery/Repository/AuthRepository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "verify(_:_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1B4B6634-3E1A-4096-9FD1-F5500DD0B051 - eadfebef0d7c88c6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (FoodDelivery.APIResponse&lt;FoodDelivery.Token&gt;) -&gt; () in FoodDelivery.AuthRepository.verify(FoodDelivery.VerifyForm, (FoodDelivery.Response&lt;FoodDelivery.Token&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "FoodDelivery.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hassan/Data/projects/FoodDelivery/FoodDelivery/Repository/AuthRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64">
+               </Location>
+               <Location
+                  uuid = "1B4B6634-3E1A-4096-9FD1-F5500DD0B051 - eadfebef0d7c88c6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (FoodDelivery.APIResponse&lt;FoodDelivery.Token&gt;) -&gt; () in FoodDelivery.AuthRepository.verify(FoodDelivery.VerifyForm, (FoodDelivery.Response&lt;FoodDelivery.Token&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "FoodDelivery.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hassan/Data/projects/FoodDelivery/FoodDelivery/Repository/AuthRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

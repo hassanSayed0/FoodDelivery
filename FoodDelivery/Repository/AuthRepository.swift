@@ -58,8 +58,8 @@ class AuthRepository: Repo {
         }
     }
     
-    func verify(_ otp: String, _ completion: @escaping (Response<Token>) -> ()) {
-        provider.request(type: Token.self, service: Api.Auth.verify(otp)) { response in
+    func verify(_ form: VerifyForm, _ completion: @escaping (Response<Token>) -> ()) {
+        provider.request(type: Token.self, service: Api.Auth.verify(form)) { response in
             switch response {
             case .success(let token):
                 self.token.save(token: token)

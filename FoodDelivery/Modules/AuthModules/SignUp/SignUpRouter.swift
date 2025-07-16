@@ -25,17 +25,17 @@ class SignUpRouter: PresenterToRouterSignUpProtocol {
         viewController.presenter?.interactor = SignUpInteractor()
         viewController.presenter?.interactor?.presenter = presenter
         
-        return viewController
+        return NavController(rootViewController:viewController)
     }
     
     func presentSignIn() {
         let view = SignInRouter.createModule()
-        RootRouter().popToRoot(animated: false)
-        RootRouter().show(viewController: view)
+        RootRouter().rootVC( view)
     }
     
     func presentOtp(phone: String) {
-            
+        let view = OtpRouter.createModule(phone: phone)
+        RootRouter().show(viewController: view)
     }
     
 }

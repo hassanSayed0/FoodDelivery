@@ -24,7 +24,7 @@ class SignInRouter: PresenterToRouterSignInProtocol {
         viewController.presenter?.interactor = SignInInteractor()
         viewController.presenter?.interactor?.presenter = presenter
         
-        return viewController
+        return NavController(rootViewController:viewController)
     }
     func presentForgetPassword() {
 //        let view = ForgetPasswordRouter.assembleModule()
@@ -39,7 +39,7 @@ class SignInRouter: PresenterToRouterSignInProtocol {
     func presentSignUp() {
         let view = SignUpRouter.createModule()
 //        RootRouter().popToRoot(animated: false)
-        RootRouter().show(viewController: view)
+        RootRouter().rootVC(view)
     }
 
 }
