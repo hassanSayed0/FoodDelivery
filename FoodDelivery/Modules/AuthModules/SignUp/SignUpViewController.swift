@@ -39,6 +39,8 @@ class SignUpViewController: BaseController {
         stackViewMain.cornerRadiusTop(stackViewMain, 20)
         stackViewWhite.cornerRadiusTop(stackViewWhite, 20)
         setupTaps()
+        handleTextInputChange()
+        txtFldPhoneNUmber.delegate = self
     }
     
     func setupTaps() {
@@ -143,5 +145,18 @@ extension SignUpViewController: UITextFieldDelegate {
             return false
         }
         return true
+    }
+
+    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+        switch textField {
+        case txtFldPhoneNUmber:
+            let text = NSString(string: textField.text ?? "").replacingCharacters(in: range, with: string)
+            guard !text.isEmpty else { return true }
+            let numberFormatter = NumberFormatter()
+            numberFormatter.numberStyle = .none
+            return numberFormatter.number(from: text)?.intValue != nil
+        default:
+            return true
+        }
     }
 }

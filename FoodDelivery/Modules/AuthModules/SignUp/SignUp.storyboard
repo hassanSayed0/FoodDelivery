@@ -122,7 +122,7 @@
                                                                                                             <userDefinedRuntimeAttribute type="string" keyPath="localizedKeyPlaceholder" value="first_name"/>
                                                                                                         </userDefinedRuntimeAttributes>
                                                                                                         <connections>
-                                                                                                            <action selector="actionsTxtFlds:" destination="Y6W-OH-hqX" eventType="editingDidEnd" id="pdq-mF-42w"/>
+                                                                                                            <action selector="actionsTxtFlds:" destination="Y6W-OH-hqX" eventType="editingChanged" id="toa-bR-fQI"/>
                                                                                                         </connections>
                                                                                                     </textField>
                                                                                                 </subviews>
@@ -184,7 +184,7 @@
                                                                                                             <userDefinedRuntimeAttribute type="string" keyPath="localizedKeyPlaceholder" value="enter_your_email"/>
                                                                                                         </userDefinedRuntimeAttributes>
                                                                                                         <connections>
-                                                                                                            <action selector="actionsTxtFlds:" destination="Y6W-OH-hqX" eventType="editingDidEnd" id="Qaw-WD-jqc"/>
+                                                                                                            <action selector="actionsTxtFlds:" destination="Y6W-OH-hqX" eventType="editingChanged" id="CZ8-gW-Dx0"/>
                                                                                                         </connections>
                                                                                                     </textField>
                                                                                                 </subviews>
@@ -254,7 +254,7 @@
                                                                                                             <userDefinedRuntimeAttribute type="string" keyPath="localizedKeyPlaceholder" value="phone_number"/>
                                                                                                         </userDefinedRuntimeAttributes>
                                                                                                         <connections>
-                                                                                                            <action selector="actionsTxtFlds:" destination="Y6W-OH-hqX" eventType="editingDidEnd" id="GBQ-x0-im4"/>
+                                                                                                            <action selector="actionsTxtFlds:" destination="Y6W-OH-hqX" eventType="editingChanged" id="swf-w3-mBi"/>
                                                                                                         </connections>
                                                                                                     </textField>
                                                                                                 </subviews>
@@ -316,7 +316,7 @@
                                                                                                             <userDefinedRuntimeAttribute type="string" keyPath="localizedKeyPlaceholder" value="password"/>
                                                                                                         </userDefinedRuntimeAttributes>
                                                                                                         <connections>
-                                                                                                            <action selector="actionsTxtFlds:" destination="Y6W-OH-hqX" eventType="editingDidEnd" id="OJp-7j-WjD"/>
+                                                                                                            <action selector="actionsTxtFlds:" destination="Y6W-OH-hqX" eventType="editingChanged" id="ZLT-ka-u0l"/>
                                                                                                         </connections>
                                                                                                     </textField>
                                                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JK8-jp-2vH">
@@ -390,7 +390,7 @@
                                                                                                             <userDefinedRuntimeAttribute type="string" keyPath="localizedKeyPlaceholder" value="password"/>
                                                                                                         </userDefinedRuntimeAttributes>
                                                                                                         <connections>
-                                                                                                            <action selector="actionsTxtFlds:" destination="Y6W-OH-hqX" eventType="editingDidEnd" id="zvf-Mr-X90"/>
+                                                                                                            <action selector="actionsTxtFlds:" destination="Y6W-OH-hqX" eventType="editingChanged" id="HCy-Gk-rVD"/>
                                                                                                         </connections>
                                                                                                     </textField>
                                                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UFg-ZJ-yg4">

@@ -70,7 +70,7 @@ class SignInViewController: BaseController {
     }
     
     @IBAction func actionForgetPassword(_ sender: UIButton) {
-//        presenter.didClickForgetPassword()
+        presenter?.didClickForgetPassword()
     }
     
     @IBAction func actionSignIn(_ sender: UIButton) {

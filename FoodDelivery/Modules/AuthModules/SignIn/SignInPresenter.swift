@@ -36,12 +36,7 @@ extension SignInPresenter: InteractorToPresenterSignInProtocol {
             view?.hideLoading()
         }
     }
-    
-    func rootVC(_ vc: UIViewController) {
-        APP.window?.makeKeyAndVisible()
-        APP.window?.rootViewController = vc
-    }
-    
+
     func didFailToGetToken(_ error: APIError) {
         DispatchQueue.main.async { [self] in
             view?.hideLoading()
