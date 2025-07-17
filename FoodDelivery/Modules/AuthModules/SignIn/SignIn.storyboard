@@ -48,10 +48,10 @@
                                                         <rect key="frame" x="0.0" y="20" width="393" height="719"/>
                                                         <subviews>
                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="VSP-9j-SJF">
-                                                                <rect key="frame" x="0.0" y="0.0" width="393" height="154"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="393" height="154.66666666666666"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="Welcome back! Glad to see you, Again!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kiq-cr-ozj">
-                                                                        <rect key="frame" x="20" y="19.999999999999996" width="353" height="60.666666666666657"/>
+                                                                        <rect key="frame" x="20" y="20" width="353" height="61"/>
                                                                         <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="26"/>
                                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                         <nil key="highlightedColor"/>
@@ -60,7 +60,7 @@
                                                                         </userDefinedRuntimeAttributes>
                                                                     </label>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="Please enter your phone number and password to be able to access the application." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dHB-XK-CPO">
-                                                                        <rect key="frame" x="20" y="96.666666666666657" width="353" height="37.333333333333343"/>
+                                                                        <rect key="frame" x="20" y="97" width="353" height="37.666666666666657"/>
                                                                         <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="16"/>
                                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                         <nil key="highlightedColor"/>
@@ -72,13 +72,13 @@
                                                                 <edgeInsets key="layoutMargins" top="20" left="20" bottom="20" right="20"/>
                                                             </stackView>
                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="aTj-E7-k0Z">
-                                                                <rect key="frame" x="0.0" y="154" width="393" height="565"/>
+                                                                <rect key="frame" x="0.0" y="154.66666666666669" width="393" height="564.33333333333326"/>
                                                                 <subviews>
                                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="o0P-6B-emW">
-                                                                        <rect key="frame" x="20" y="31.999999999999993" width="353" height="80.333333333333314"/>
+                                                                        <rect key="frame" x="20" y="32.000000000000036" width="353" height="80.666666666666686"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="Phone" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WUB-dT-3cS">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="353" height="16.333333333333332"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="353" height="16.666666666666668"/>
                                                                                 <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="14"/>
                                                                                 <color key="textColor" name="MainText"/>
                                                                                 <nil key="highlightedColor"/>
@@ -87,7 +87,7 @@
                                                                                 </userDefinedRuntimeAttributes>
                                                                             </label>
                                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="s7E-6H-o4s">
-                                                                                <rect key="frame" x="0.0" y="24.333333333333314" width="353" height="56"/>
+                                                                                <rect key="frame" x="0.0" y="24.666666666666629" width="353" height="56"/>
                                                                                 <subviews>
                                                                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="qZB-Q5-rkZ">
                                                                                         <rect key="frame" x="0.0" y="0.0" width="353" height="56"/>
@@ -104,7 +104,7 @@
                                                                                                 </userDefinedRuntimeAttributes>
                                                                                             </imageView>
                                                                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="01126142539" placeholder="Enter your phone number" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LQB-VR-6W8">
-                                                                                                <rect key="frame" x="50" y="18" width="287" height="20.333333333333329"/>
+                                                                                                <rect key="frame" x="50" y="17.666666666666686" width="287" height="20.666666666666671"/>
                                                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                                 <color key="textColor" name="SecondaryMainText"/>
                                                                                                 <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="16"/>
@@ -118,9 +118,6 @@
                                                                                                     </userDefinedRuntimeAttribute>
                                                                                                     <userDefinedRuntimeAttribute type="string" keyPath="localizedKeyPlaceholder" value="enter_your_phone_number"/>
                                                                                                 </userDefinedRuntimeAttributes>
-                                                                                                <connections>
-                                                                                                    <action selector="actionTxtFlds:" destination="Y6W-OH-hqX" eventType="editingChanged" id="eeV-0u-SdZ"/>
-                                                                                                </connections>
                                                                                             </textField>
                                                                                         </subviews>
                                                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -139,137 +136,39 @@
                                                                             </stackView>
                                                                         </subviews>
                                                                     </stackView>
-                                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="lzO-lw-AuQ">
-                                                                        <rect key="frame" x="20" y="112.33333333333333" width="353" height="144.33333333333337"/>
-                                                                        <subviews>
-                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yfb-OW-ptg">
-                                                                                <rect key="frame" x="0.0" y="32" width="353" height="16.333333333333329"/>
-                                                                                <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="14"/>
-                                                                                <color key="textColor" name="MainText"/>
-                                                                                <nil key="highlightedColor"/>
-                                                                                <userDefinedRuntimeAttributes>
-                                                                                    <userDefinedRuntimeAttribute type="string" keyPath="localizedTextKey" value="password"/>
-                                                                                </userDefinedRuntimeAttributes>
-                                                                            </label>
-                                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Bef-Q8-Ftf">
-                                                                                <rect key="frame" x="0.0" y="56.333333333333371" width="353" height="56"/>
-                                                                                <subviews>
-                                                                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="iPt-dH-1qR">
-                                                                                        <rect key="frame" x="0.0" y="0.0" width="353" height="56"/>
-                                                                                        <subviews>
-                                                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lock.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="t5V-lz-HI6">
-                                                                                                <rect key="frame" x="16" y="17" width="24" height="22"/>
-                                                                                                <color key="tintColor" name="PrimaryGreen"/>
-                                                                                                <constraints>
-                                                                                                    <constraint firstAttribute="width" constant="24" id="3eN-0l-mpZ"/>
-                                                                                                    <constraint firstAttribute="height" constant="24" id="rdh-1V-KT9"/>
-                                                                                                </constraints>
-                                                                                            </imageView>
-                                                                                            <textField opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="1000" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="12345@He" placeholder="Enter your Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="G7j-DE-1l3">
-                                                                                                <rect key="frame" x="50" y="18.666666666666629" width="149" height="19"/>
-                                                                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                                                <color key="textColor" name="SecondaryMainText"/>
-                                                                                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="16"/>
-                                                                                                <textInputTraits key="textInputTraits" keyboardType="emailAddress" secureTextEntry="YES"/>
-                                                                                                <userDefinedRuntimeAttributes>
-                                                                                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
-                                                                                                        <color key="value" red="0.69411764710000001" green="0.65098039220000004" blue="0.72156862749999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                                                    </userDefinedRuntimeAttribute>
-                                                                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerIPhone">
-                                                                                                        <real key="value" value="5"/>
-                                                                                                    </userDefinedRuntimeAttribute>
-                                                                                                    <userDefinedRuntimeAttribute type="string" keyPath="localizedKeyPlaceholder" value="enter_your_password"/>
-                                                                                                </userDefinedRuntimeAttributes>
-                                                                                                <connections>
-                                                                                                    <action selector="actionTxtFlds:" destination="Y6W-OH-hqX" eventType="editingChanged" id="XJm-nI-bq9"/>
-                                                                                                </connections>
-                                                                                            </textField>
-                                                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="n1a-l0-ssO">
-                                                                                                <rect key="frame" x="209" y="0.0" width="94" height="56"/>
-                                                                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                                            </view>
-                                                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="eye.fill" catalog="system" highlightedImage="eye.slash.fill" translatesAutoresizingMaskIntoConstraints="NO" id="bHa-2c-fnB">
-                                                                                                <rect key="frame" x="313" y="18" width="24" height="20"/>
-                                                                                                <color key="tintColor" name="PrimaryDarkGreen"/>
-                                                                                                <constraints>
-                                                                                                    <constraint firstAttribute="height" constant="24" id="Xu0-qc-PD0"/>
-                                                                                                    <constraint firstAttribute="width" constant="24" id="o9s-GJ-Y4C"/>
-                                                                                                </constraints>
-                                                                                            </imageView>
-                                                                                        </subviews>
-                                                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                                        <edgeInsets key="layoutMargins" top="0.0" left="16" bottom="0.0" right="16"/>
-                                                                                    </stackView>
-                                                                                </subviews>
-                                                                                <color key="backgroundColor" red="0.94509803920000002" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="calibratedRGB"/>
-                                                                                <constraints>
-                                                                                    <constraint firstAttribute="height" constant="56" id="zha-0v-Jrs"/>
-                                                                                </constraints>
-                                                                                <userDefinedRuntimeAttributes>
-                                                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerIPhone">
-                                                                                        <real key="value" value="10"/>
-                                                                                    </userDefinedRuntimeAttribute>
-                                                                                </userDefinedRuntimeAttributes>
-                                                                            </stackView>
-                                                                            <stackView hidden="YES" opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wwq-ii-h5t">
-                                                                                <rect key="frame" x="0.0" y="112.33333333333337" width="353" height="31"/>
-                                                                                <subviews>
-                                                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aEL-kJ-5CP">
-                                                                                        <rect key="frame" x="0.0" y="0.0" width="222" height="31"/>
-                                                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                                    </view>
-                                                                                    <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dWI-Pa-H5E">
-                                                                                        <rect key="frame" x="222" y="0.0" width="131" height="31"/>
-                                                                                        <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="16"/>
-                                                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                                        <state key="normal" title="Forget Password?">
-                                                                                            <color key="titleColor" name="PrimaryGreen"/>
-                                                                                        </state>
-                                                                                        <userDefinedRuntimeAttributes>
-                                                                                            <userDefinedRuntimeAttribute type="string" keyPath="localizednormalTextKey" value="forget_password_?"/>
-                                                                                        </userDefinedRuntimeAttributes>
-                                                                                        <connections>
-                                                                                            <action selector="actionForgetPassword:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="JHx-0m-q2W"/>
-                                                                                        </connections>
-                                                                                    </button>
-                                                                                </subviews>
-                                                                            </stackView>
-                                                                        </subviews>
-                                                                        <edgeInsets key="layoutMargins" top="32" left="0.0" bottom="32" right="0.0"/>
-                                                                    </stackView>
-                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Pp-bX-8ey">
-                                                                        <rect key="frame" x="20" y="256.66666666666669" width="353" height="56"/>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Pp-bX-8ey" userLabel="Btn Login">
+                                                                        <rect key="frame" x="20" y="112.66666666666663" width="353" height="56"/>
                                                                         <color key="backgroundColor" name="PrimaryGreen"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="height" constant="56" id="e1b-hW-3wP"/>
                                                                         </constraints>
-                                                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                        <state key="normal" title="SignIn">
+                                                                        <state key="normal" title="Login">
                                                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                         </state>
                                                                         <userDefinedRuntimeAttributes>
-                                                                            <userDefinedRuntimeAttribute type="string" keyPath="localizednormalTextKey" value="sign_in"/>
+                                                                            <userDefinedRuntimeAttribute type="string" keyPath="localizednormalTextKey" value="Login"/>
                                                                         </userDefinedRuntimeAttributes>
                                                                         <connections>
                                                                             <action selector="actionSignIn:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="jyS-f3-utT"/>
                                                                         </connections>
                                                                     </button>
                                                                     <stackView hidden="YES" opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="Hra-fd-sm3">
-                                                                        <rect key="frame" x="20" y="312.66666666666663" width="353" height="200.33333333333337"/>
+                                                                        <rect key="frame" x="20" y="168.66666666666669" width="353" height="200.66666666666669"/>
                                                                         <subviews>
                                                                             <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="cQg-qJ-0xz">
-                                                                                <rect key="frame" x="0.0" y="24" width="353" height="16.333333333333329"/>
+                                                                                <rect key="frame" x="0.0" y="24" width="353" height="16.666666666666671"/>
                                                                                 <subviews>
                                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qly-FU-KvZ">
-                                                                                        <rect key="frame" x="0.0" y="7.6666666666667425" width="124.66666666666667" height="1"/>
+                                                                                        <rect key="frame" x="0.0" y="8" width="125" height="1"/>
                                                                                         <color key="backgroundColor" red="0.94509803920000002" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="calibratedRGB"/>
                                                                                         <constraints>
                                                                                             <constraint firstAttribute="height" constant="1" id="OTB-A4-iMX"/>
                                                                                         </constraints>
                                                                                     </view>
                                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" text="Or Login with" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9xg-C6-Xqw">
-                                                                                        <rect key="frame" x="134.66666666666666" y="0.0" width="84" height="16.333333333333332"/>
+                                                                                        <rect key="frame" x="135" y="0.0" width="83" height="16.666666666666668"/>
                                                                                         <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="14"/>
                                                                                         <color key="textColor" name="PrimaryGreen"/>
                                                                                         <nil key="highlightedColor"/>
@@ -278,7 +177,7 @@
                                                                                         </userDefinedRuntimeAttributes>
                                                                                     </label>
                                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VUE-6K-BKa">
-                                                                                        <rect key="frame" x="228.66666666666666" y="7.6666666666667425" width="124.33333333333334" height="1"/>
+                                                                                        <rect key="frame" x="228" y="8" width="125" height="1"/>
                                                                                         <color key="backgroundColor" red="0.94509803920000002" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                                         <constraints>
                                                                                             <constraint firstAttribute="height" constant="1" id="Wnj-wA-kLR"/>
@@ -290,7 +189,7 @@
                                                                                 </constraints>
                                                                             </stackView>
                                                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Mf1-m2-rjB">
-                                                                                <rect key="frame" x="0.0" y="64.333333333333371" width="353" height="56"/>
+                                                                                <rect key="frame" x="0.0" y="64.666666666666686" width="353" height="56"/>
                                                                                 <subviews>
                                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xWb-ui-cV3">
                                                                                         <rect key="frame" x="0.0" y="0.0" width="117.66666666666667" height="56"/>
@@ -388,33 +287,33 @@
                                                                         <edgeInsets key="layoutMargins" top="24" left="0.0" bottom="80" right="0.0"/>
                                                                     </stackView>
                                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ZKw-e7-1ki">
-                                                                        <rect key="frame" x="20" y="312.66666666666663" width="353" height="252.33333333333337"/>
+                                                                        <rect key="frame" x="20" y="168.66666666666663" width="353" height="395.66666666666674"/>
                                                                         <subviews>
                                                                             <stackView opaque="NO" contentMode="scaleToFill" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="x4K-27-EbL">
-                                                                                <rect key="frame" x="46.666666666666686" y="0.0" width="260" height="252.33333333333334"/>
+                                                                                <rect key="frame" x="100.00000000000001" y="0.0" width="153.33333333333337" height="395.66666666666669"/>
                                                                                 <subviews>
-                                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" text="Don’t have an account?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jNC-nF-Ebd">
-                                                                                        <rect key="frame" x="0.0" y="118" width="149" height="16.333333333333343"/>
-                                                                                        <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="14"/>
-                                                                                        <color key="textColor" name="MainText"/>
+                                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" text="New User?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jNC-nF-Ebd">
+                                                                                        <rect key="frame" x="0.0" y="188.00000000000006" width="81.333333333333329" height="20"/>
+                                                                                        <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="17"/>
+                                                                                        <color key="textColor" name="PrimaryGreen"/>
                                                                                         <nil key="highlightedColor"/>
                                                                                         <userDefinedRuntimeAttributes>
                                                                                             <userDefinedRuntimeAttribute type="string" keyPath="localizedTextKey" value="don’t_have_an_account?"/>
                                                                                         </userDefinedRuntimeAttributes>
                                                                                     </label>
                                                                                     <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DiV-XB-oqk">
-                                                                                        <rect key="frame" x="149" y="106.33333333333337" width="111" height="40"/>
+                                                                                        <rect key="frame" x="81.333333333333343" y="178.00000000000006" width="72" height="40"/>
                                                                                         <constraints>
                                                                                             <constraint firstAttribute="height" constant="40" id="Rge-16-jgu"/>
                                                                                         </constraints>
                                                                                         <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="15"/>
                                                                                         <inset key="contentEdgeInsets" minX="10" minY="20" maxX="10" maxY="20"/>
                                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                                        <state key="normal" title="Register Now">
+                                                                                        <state key="normal" title="Sign Up">
                                                                                             <color key="titleColor" name="PrimaryGreen"/>
                                                                                         </state>
                                                                                         <userDefinedRuntimeAttributes>
-                                                                                            <userDefinedRuntimeAttribute type="string" keyPath="localizednormalTextKey" value="register_now"/>
+                                                                                            <userDefinedRuntimeAttribute type="string" keyPath="localizednormalTextKey" value="Sign Up"/>
                                                                                         </userDefinedRuntimeAttributes>
                                                                                         <connections>
                                                                                             <action selector="actionRegisterNow:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="Bc3-zQ-q84"/>
@@ -462,11 +361,8 @@
                     </view>
                     <connections>
                         <outlet property="btnSignIn" destination="6Pp-bX-8ey" id="W0F-2N-wJs"/>
-                        <outlet property="imgToggelPassword" destination="bHa-2c-fnB" id="1bu-7M-nEb"/>
                         <outlet property="stackMainView" destination="yFS-L2-2G2" id="P9q-AU-IFE"/>
                         <outlet property="stackWhiteView" destination="aTj-E7-k0Z" id="czr-ae-fzv"/>
-                        <outlet property="txtFldPassword" destination="G7j-DE-1l3" id="ZQs-dq-x5j"/>
-                        <outlet property="txtFldPhone" destination="LQB-VR-6W8" id="UQk-JF-Mud"/>
                         <outlet property="viewImgApple" destination="IwM-6k-oAH" id="Cg4-On-eRi"/>
                         <outlet property="viewImgFaceBook" destination="JGh-Nu-iRe" id="kD8-y2-Lw7"/>
                         <outlet property="viewImgGoogle" destination="u3P-HK-THs" id="egn-9U-zhi"/>
@@ -479,11 +375,8 @@
     </scenes>
     <resources>
         <image name="applelogo" catalog="system" width="105" height="128"/>
-        <image name="eye.fill" catalog="system" width="128" height="80"/>
-        <image name="eye.slash.fill" catalog="system" width="128" height="96"/>
         <image name="face.smiling.fill" catalog="system" width="128" height="123"/>
         <image name="globe" catalog="system" width="128" height="123"/>
-        <image name="lock.fill" catalog="system" width="111" height="128"/>
         <image name="phone.fill" catalog="system" width="128" height="114"/>
         <namedColor name="MainText">
             <color red="0.14901960784313725" green="0.14901960784313725" blue="0.14901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
