@@ -1,0 +1,8 @@
+// MARK: - TabBar
+
+"home" = "Home";
+"favorites" = "Favorites";
+"cart" = "Cart";
+"profile" = "Profile";
+"stores" = "Stores";
+"filter_result" = "Filter Result";

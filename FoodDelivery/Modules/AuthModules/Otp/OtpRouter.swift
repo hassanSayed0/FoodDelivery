@@ -29,8 +29,8 @@ class OtpRouter: PresenterToRouterOtpProtocol {
     }
     
     func presentHome() {
-//        TAB.selectedIndex = 0
-//        RootRouter().rootVC(TAB)
+        TAB.selectedIndex = 0
+        RootRouter().rootVC(TAB)
     }
     
     func presentCreatePassword(_ otp: String) {

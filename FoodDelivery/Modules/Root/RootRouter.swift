@@ -10,7 +10,9 @@ import UIKit
 class RootRouter: RootRouterInterface {
     
     func presentRootScreen(in window: UIWindow) {
-        window.rootViewController = SignInRouter.createModule()
+        TAB.selectedIndex = 0
+
+        window.rootViewController = TAB
     }
     
     func resetApp() {

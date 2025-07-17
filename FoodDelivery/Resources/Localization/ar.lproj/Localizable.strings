@@ -1,0 +1,6 @@
+// MARK: - TabBar
+"home" = "الرئيسية";
+"favorites" = "المفضلة";
+"cart" = "عربة التسوق";
+"stores" = "المتاجر";
+"filter_result" = "نتائج التصفية";

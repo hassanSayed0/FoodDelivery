@@ -32,8 +32,8 @@ class SignInRouter: PresenterToRouterSignInProtocol {
     }
     
     func presentHome() {
-//        TAB.selectedIndex = 0
-//        RootRouter().rootVC(TAB)
+        TAB.selectedIndex = 0
+        RootRouter().rootVC(TAB)
     }
     
     func presentSignUp() {
